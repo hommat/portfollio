@@ -1,0 +1,52 @@
+.nav {
+  position: fixed;
+  right: -$navigation-size;
+  top: -$navigation-size;
+  width: $navigation-size * 2;
+  height: $navigation-size * 2;
+  transform: scale(0);
+  background: $color-primary;
+  transition: $transition-time-default;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+}
+
+.nav__list {
+  font-size: 1.6rem;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  left: 180px;
+  bottom: 150px;
+  transition: opacity 0.1s;
+}
+
+.nav__item {
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid $color-primary;
+  transition: $transition-time-default;
+
+  &:hover {
+    border-bottom-color: $color-text-white;
+  }
+}
+
+.nav__link {
+  color: $color-text-white;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.menu--open {
+  .nav {
+    transition: transform $transition-time-default ease-in-out;
+    transform: scale(1);
+  }
+
+  .nav__list {
+    transition: opacity $transition-time-default $transition-time-default
+      ease-in;
+    opacity: 1;
+  }
+}
