@@ -1,0 +1,16 @@
+.header {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__author {
+  letter-spacing: 0.15rem;
+  font-size: 4.4rem;
+}
+
+.header__role {
+  font-size: 1.5rem;
+}

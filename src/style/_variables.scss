@@ -15,11 +15,16 @@ $transition-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 //Menu
 
 $menu-size: 55px;
-$menu-corner-distance: 25px;
+$menu-corner-distance: 30px;
 $menu-hamburger-bar-distance: 9px;
 $menu-hamburger-bar-height: 4px;
 $menu-hamburger-bar-border-radius: 5px;
 
 //Navigation
 
-$navigation-size: 420px;
+$navigation-size: 360px;
+
+//Project
+
+$project-height: 200px;
+$project-border-radius: 5px;
