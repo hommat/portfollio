@@ -7,12 +7,12 @@
 .project {
   display: flex;
   flex-direction: column;
-  height: $project-height;
+  height: 200px;
   background-image: url("../imgs/placeholder.png");
   background-size: cover;
   background-position: center;
   box-shadow: 2px 2px 17px -1px rgba(0, 0, 0, 0.87);
-  border-radius: $project-border-radius;
+  border-radius: $border-radius;
 }
 
 .project__description {
@@ -24,8 +24,8 @@
   transition: $transition-time-default;
   background: rgba(0, 0, 0, 0.93);
   color: $color-text-white;
-  border-top-left-radius: $project-border-radius;
-  border-top-right-radius: $project-border-radius;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
 
   &:hover {
     opacity: 1;
@@ -35,8 +35,8 @@
 .project__actions {
   text-align: left;
   background: rgba(0, 0, 0, 0.93);
-  border-bottom-left-radius: $project-border-radius;
-  border-bottom-right-radius: $project-border-radius;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
   padding: 10px;
 }
 

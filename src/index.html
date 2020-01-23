@@ -13,26 +13,26 @@
     <title>Mateusz Ziomek</title>
   </head>
   <body>
-    <div class="container">
-      <div class="menu" id="menu">
-        <div class="menu__hamburger" id="hamburger">
-          <div class="menu__hamburger__bar"></div>
-        </div>
-        <nav class="nav" id="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="#skills">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#projects">Projects</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
+    <div class="menu" id="menu">
+      <div class="menu__hamburger" id="hamburger">
+        <div class="menu__hamburger__bar"></div>
       </div>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#projects">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
+    <div class="container">
       <header class="header">
         <h1 class="header__author">Mateusz Ziomek</h1>
         <h4 class="header__role">Front-End Developer</h4>
@@ -222,9 +222,19 @@
         </section>
 
 
-        <section class="section" id="contact">
+        <section class="section contact" id="contact">
           <h3 class="section__heading">Contact</h3>
-          <p>mateusz@mateusz.com</p>
+          <p>Email me at mateusz@mateusz.com or use form below</p>
+          <form class="form" action="https://formspree.io/mqkpoave" method="POST">
+            <label class="form__label" for="email">Email</label>
+            <input placeholder="example@mail.com" class="form__input" type="email" name="email" autocomplete="email" spellcheck="false"/>
+            <label class="form__label" for="subject">Subject</label>
+            <input placeholder="Job offer" class="form__input" type="text" name="subject" autocomplete="off" />
+            <label class="form__label" for="message">Message</label>
+            <textarea placeholder="Hey, check out our offer!" class="form__input form__textarea" name="message" autocomplete="off"></textarea>
+
+            <button type="submit" class="form__button">Send</button>
+          </form>
         </section>
       </main>
 
