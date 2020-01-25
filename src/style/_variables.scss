@@ -1,15 +1,25 @@
 //Colors
 
-$color-primary: #000000;
+$color-primary: #0d0e4d;
+$color-primary-light: #141550;
+$color-primary-light-2: #1a1b55;
+$color-primary-light-3: #251e75;
+
+$color-white: #f7f7f7;
 
 $color-text-black: rgba(0, 0, 0, 0.9);
-$color-text-white: rgba(255, 255, 255, 0.9);
+$color-text-white: rgba(255, 255, 255, 0.87);
+$color-text-dark: #6a6b8e;
 
 $color-form-background: #ebeef1;
 
+//Shadows
+
+$shadow-default: 2px 2px 17px -1px rgba(0, 0, 0, 0.87);
+
 //Border radius
 
-$border-radius: 6px;
+$border-radius: 10px;
 
 //Transition
 
@@ -29,3 +39,8 @@ $menu-hamburger-bar-border-radius: 5px;
 //Navigation
 
 $navigation-size: 360px;
+
+//Translate
+
+$translate-about-box: 50px;
+$translate-projects-box: 280px;

@@ -1,17 +1,28 @@
+.skills {
+  color: $color-text-black;
+  min-height: 700px;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .skillset {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .skillset__group {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .skillset__heading {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
-.skill {
-  margin-right: 3rem;
+.skillset__list__item {
+  margin-top: 16px;
 }

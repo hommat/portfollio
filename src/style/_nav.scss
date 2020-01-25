@@ -9,6 +9,7 @@
   transition: $transition-time-default;
   border-bottom-left-radius: 50%;
   overflow: hidden;
+  box-shadow: $shadow-default;
 }
 
 .nav__list {
@@ -17,7 +18,7 @@
   opacity: 0;
   position: absolute;
   left: 145px;
-  bottom: 145px;
+  bottom: 95px;
   transition: opacity 0.1s;
 }
 

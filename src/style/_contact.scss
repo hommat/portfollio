@@ -1,11 +1,13 @@
+.contact {
+  padding-top: $translate-projects-box;
+  background: $color-primary-light;
+}
+
 .form {
   max-width: 400px;
   margin: auto;
   margin-top: 30px;
   text-align: left;
-}
-
-.form__label {
 }
 
 .form__input {
@@ -26,9 +28,10 @@
 }
 
 .form__button {
+  color: $color-text-white;
   border-radius: $border-radius;
   background: none;
-  border: 1px solid black;
+  border: 1px solid $color-text-white;
   padding: 10px;
   cursor: pointer;
   margin: 0 auto;
