@@ -7,22 +7,35 @@
 }
 
 .form {
+  padding: $box-padding;
   max-width: 400px;
+  text-align: left;
   margin: auto;
   margin-top: 30px;
-  text-align: left;
+  box-shadow: $shadow-default;
+}
+
+.form__label {
+  font-size: 0.95em;
+  margin-left: 2px;
 }
 
 .form__input {
   border-radius: $border-radius;
+  font-size: 0.85em;
   outline: none;
   padding: 10px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   border: 1px solid black;
   background: white;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 4px;
+  transition: $transition-time-default;
+
+  &:focus {
+    transform: translateY(-2px);
+  }
 }
 
 .form__textarea {
@@ -31,11 +44,19 @@
 }
 
 .form__button {
+  font-size: 1em;
   color: $color-text-white;
-  border-radius: $border-radius;
   background: none;
-  border: 1px solid $color-text-white;
-  padding: 10px;
+  border-radius: $border-radius;
+  border: 1px solid black;
+  padding: 10px 20px;
   cursor: pointer;
   margin: 0 auto;
+  background: $color-primary;
+  transition: $transition-time-default;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-2px);
+  }
 }
