@@ -28,6 +28,17 @@ $transition-time-default: 0.3s;
 
 $transition-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
+//Box
+
+$translate-about-box: 50px;
+$translate-projects-box: 280px;
+
+$box-padding: 20px;
+
+//Section
+
+$section-padding-vertical: 50px;
+
 //Menu
 
 $menu-size: 55px;
@@ -40,7 +51,6 @@ $menu-hamburger-bar-border-radius: 5px;
 
 $navigation-size: 360px;
 
-//Translate
+//Other
 
-$translate-about-box: 50px;
-$translate-projects-box: 280px;
+$max-width: 1280px;

@@ -1,9 +1,9 @@
 .section {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: $section-padding-vertical;
 }
 
 .section__heading {
   font-size: 3em;
-  padding: 50px 0;
+  padding: $section-padding-vertical 0;
 }

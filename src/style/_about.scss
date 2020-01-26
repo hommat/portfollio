@@ -1,13 +1,9 @@
 .about {
   background: $color-primary-light-3;
-  margin: 0 150px;
   border-radius: $border-radius;
   margin-bottom: -$translate-about-box;
   transform: translateY(-$translate-about-box);
   box-shadow: $shadow-default;
-}
-
-.about__text {
-  padding: 20px;
+  padding: $box-padding;
   padding-top: 0;
 }

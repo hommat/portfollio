@@ -1,18 +1,26 @@
 .projects {
   color: $color-text-white;
   background: $color-primary-light-3;
-  margin: 0 150px;
-  padding: 20px;
+  padding: $box-padding;
   border-radius: $border-radius;
   transform: translateY($translate-projects-box);
   margin-top: -$translate-projects-box;
   box-shadow: $shadow-default;
+  padding-top: 0;
 }
 
 .projects__grid {
   display: grid;
-  gap: 40px;
-  grid-template-columns: repeat(3, 1fr);
+  gap: $box-padding;
+  grid-template-columns: repeat(1, 1fr);
+
+  @include breakpoint(570px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint(900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .project {
