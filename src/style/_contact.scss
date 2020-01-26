@@ -6,6 +6,11 @@
   box-shadow: $shadow-default;
 }
 
+.contact__email {
+  color: white;
+  text-shadow: $text-shadow;
+}
+
 .form {
   padding: $box-padding;
   max-width: 400px;
