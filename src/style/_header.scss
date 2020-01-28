@@ -17,3 +17,22 @@
   color: $color-text-dark;
   font-size: 1.5rem;
 }
+
+.header__media {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__media__link {
+  margin-right: 10px;
+  transition: $transition-time-default;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
